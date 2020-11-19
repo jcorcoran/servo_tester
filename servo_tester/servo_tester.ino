@@ -12,13 +12,13 @@
 // These values control the range of expected inputs, manipulate to match the range on your hardware's ADC
 // 1024 should work for targets with 10bit ADCs (e.g. Unos/Megas)
 #define MIN_ANALOG_VAL 0
-#define MAX_ANALOG_VAL 1024
+#define MAX_ANALOG_VAL 1023
 
 // These values control the output range of the servo, manipulte to match your hardware's range.
 // If it sounds like it's fighting at one end of travel, adjust the range up/down.
 // Units are "degrees"
 #define MIN_SERVO_DEGREES 0
-#define MAX_SERVO_DEGREES 160
+#define MAX_SERVO_DEGREES 180
 
 int pot1, pot2, pot3;
 Servo servo1, servo2, servo3;
